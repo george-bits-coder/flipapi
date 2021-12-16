@@ -7,7 +7,7 @@ const connect = require("../config/db");
 const app = express();
 const router = express.Router();
 
-router.get("/", (req, res) => {
+router.get("/sample", (req, res) => {
   res.json({
     hello: "flipkart clone api!"
   });
