@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
   });
 });
 
-app.use(`/sample`, router);
+app.use(`/.netlify/functions/ppp`, router);
 
 module.exports = app;
 module.exports.handler = serverless(app);
