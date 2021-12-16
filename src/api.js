@@ -13,6 +13,12 @@ router.get("/sample", (req, res) => {
   });
 });
 
+router.get("/p", (req, res) => {
+  res.json({
+    hello: "flipkart clone api!"
+  });
+});
+
 app.use(`/.netlify/functions/api`, router);
 
 module.exports = app;
