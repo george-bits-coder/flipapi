@@ -9,13 +9,13 @@ const router = express.Router();
 
 router.get("/sample", (req, res) => {
   res.json({
-    hello: "flipkart clone api!"
+    hello: "koo clone api!"
   });
 });
 
 router.get("/p", (req, res) => {
   res.json({
-    hello: "flipkart clone api!"
+    hello: "koo clone api!"
   });
 });
 
