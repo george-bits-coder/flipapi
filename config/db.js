@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
 
 module.exports = () => {
-    return mongoose.connect("mongodb+srv://georgegid:hello1234@cluster0.9ssus.mongodb.net/flipclone2");
+    return mongoose.connect("mongodb+srv://kooappclone:kooappclone@cluster0.6nomy.mongodb.net/test");
 };
